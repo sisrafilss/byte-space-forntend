@@ -1,7 +1,8 @@
 import { Navbar } from '@/components/layout/Navbar';
+import { CategoriesSection } from '@/components/sections/CategoriesSection';
+import { CourseSection } from '@/components/sections/CourseSection';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { PartnersSection } from '@/components/sections/PartnersSection';
-import { CourseSection } from '@/components/sections/CourseSection';
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
 
       {/* Courses Section (Step 2.4) */}
       <CourseSection />
+
+      {/* Diverse Learning Paths Categories Section (Step 2.5) */}
+      <CategoriesSection />
     </main>
   );
 }
