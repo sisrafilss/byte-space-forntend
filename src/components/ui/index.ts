@@ -1,6 +1,7 @@
 export * from './Badge';
 export * from './Button';
 export * from './Container';
+export * from './CourseCard';
 export * from './Logo';
 export * from './SearchBar';
 export * from './SectionHeading';
