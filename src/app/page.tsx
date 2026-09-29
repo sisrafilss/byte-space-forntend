@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { HeroSection } from '@/components/sections/HeroSection';
+import { PartnersSection } from '@/components/sections/PartnersSection';
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
         <Navbar />
         <HeroSection />
       </div>
+
+      {/* Partner Logos Bar (Step 2.3) */}
+      <PartnersSection />
     </main>
   );
 }
