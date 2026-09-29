@@ -1,23 +1,26 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Satoshi Font from Fontshare */
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2') format('woff2');
+  src: url('https://cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2')
+    format('woff2');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://cdn.fontshare.com/wf/P2LQKHE6KA6ZP4AAGN72KDWMHH6ZH3TA/ZC32TK2P7FPS5GFTL46EU6KQJA24ZYDB/7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2') format('woff2');
+  src: url('https://cdn.fontshare.com/wf/P2LQKHE6KA6ZP4AAGN72KDWMHH6ZH3TA/ZC32TK2P7FPS5GFTL46EU6KQJA24ZYDB/7AHDUZ4A7LFLVFUIFSARGIWCRQJHISQP.woff2')
+    format('woff2');
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: 'Satoshi';
-  src: url('https://cdn.fontshare.com/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2') format('woff2');
+  src: url('https://cdn.fontshare.com/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2')
+    format('woff2');
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -32,40 +35,40 @@
   --font-heading: var(--font-poppins), system-ui, -apple-system, sans-serif;
   --font-sans: 'Satoshi', var(--font-poppins), system-ui, -apple-system, sans-serif;
 
-  --color-primary-50: #E7F6FF;
-  --color-primary-100: #D3EEFF;
-  --color-primary-200: #B0DDFF;
-  --color-primary-300: #81C5FF;
-  --color-primary-400: #4F9DFF;
-  --color-primary-500: #2872FF;
-  --color-primary-600: #0445FF;
-  --color-primary-700: #0043FF;
-  --color-primary-800: #003BE2;
-  --color-primary-900: #0B36A4;
-  --color-primary-950: #071E5F;
+  --color-primary-50: #e7f6ff;
+  --color-primary-100: #d3eeff;
+  --color-primary-200: #b0ddff;
+  --color-primary-300: #81c5ff;
+  --color-primary-400: #4f9dff;
+  --color-primary-500: #2872ff;
+  --color-primary-600: #0445ff;
+  --color-primary-700: #0043ff;
+  --color-primary-800: #003be2;
+  --color-primary-900: #0b36a4;
+  --color-primary-950: #071e5f;
 
-  --color-secondary-50: #FDFFE4;
-  --color-secondary-100: #FAFFC5;
-  --color-secondary-200: #F2FF92;
-  --color-secondary-300: #E4FF54;
-  --color-secondary-400: #D4FB20;
-  --color-secondary-500: #CBFC01;
-  --color-secondary-600: #8CB400;
-  --color-secondary-700: #6A8902;
-  --color-secondary-800: #546B09;
-  --color-secondary-900: #465A0D;
+  --color-secondary-50: #fdffe4;
+  --color-secondary-100: #faffc5;
+  --color-secondary-200: #f2ff92;
+  --color-secondary-300: #e4ff54;
+  --color-secondary-400: #d4fb20;
+  --color-secondary-500: #cbfc01;
+  --color-secondary-600: #8cb400;
+  --color-secondary-700: #6a8902;
+  --color-secondary-800: #546b09;
+  --color-secondary-900: #465a0d;
   --color-secondary-950: #243300;
 
-  --color-neutral-50: #F5F5F6;
-  --color-neutral-100: #E5E6E8;
-  --color-neutral-200: #CED0D3;
-  --color-neutral-300: #ABAEB5;
-  --color-neutral-400: #82868E;
+  --color-neutral-50: #f5f5f6;
+  --color-neutral-100: #e5e6e8;
+  --color-neutral-200: #ced0d3;
+  --color-neutral-300: #abaeb5;
+  --color-neutral-400: #82868e;
   --color-neutral-500: #666973;
-  --color-neutral-600: #585A62;
-  --color-neutral-700: #4B4C53;
+  --color-neutral-600: #585a62;
+  --color-neutral-700: #4b4c53;
   --color-neutral-800: #424348;
-  --color-neutral-900: #3A3B3F;
+  --color-neutral-900: #3a3b3f;
   --color-neutral-950: #242528;
 }
 

@@ -7,3 +7,10 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+# User Strict Rules
+
+## Git Commit & Push Policy
+- **STRICT PROHIBITION:** DO NOT automatically commit or push code after making changes.
+- **AUTHORIZATION REQUIRED:** Only run `git commit` and `git push` when the user explicitly commands it (e.g. "এখন কোডগুলো commit & push করো").
+- All intermediate work, modifications, refactors, and setups must remain staged or unstaged until user gives explicit instruction to commit and push.

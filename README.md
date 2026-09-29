@@ -3,6 +3,7 @@
 A modern, responsive e-learning web platform built for the **ByteSpace** assessment.
 
 ## 🛠️ Tech Stack
+
 - **Framework:** Next.js 16 (App Router)
 - **Library:** React 19
 - **Language:** TypeScript
@@ -12,6 +13,7 @@ A modern, responsive e-learning web platform built for the **ByteSpace** assessm
 - **Package Manager:** pnpm
 
 ## 📁 Project Structure
+
 ```text
 byte-space/
 ├── public/
@@ -30,11 +32,13 @@ byte-space/
 ## 🚀 Getting Started
 
 First, install dependencies:
+
 ```bash
 pnpm install
 ```
 
 Run the development server:
+
 ```bash
 pnpm dev
 ```
@@ -42,6 +46,8 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## 🌿 Git Branching Strategy
+
 Following assessment best practices:
+
 - `main`: Production-ready baseline
 - `feature/landing-page`: Feature branch containing active development & PR submission
