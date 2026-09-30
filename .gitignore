@@ -42,3 +42,7 @@ next-env.d.ts
 
 # temp data
 temp_figma_data/
+IMPLEMENTATION_PLAN.md
+
+# editor / agent config
+.agent/
