@@ -1,3 +1,6 @@
+'use client';
+
+import { motion } from 'motion/react';
 import Link from 'next/link';
 
 export function RegisterForm() {
@@ -39,12 +42,14 @@ export function RegisterForm() {
         </div>
 
         <div className="flex justify-end pt-2">
-          <button
+          <motion.button
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.97 }}
             type="submit"
-            className="font-satoshi inline-flex h-11.5 w-28.5 cursor-pointer items-center justify-center rounded-full bg-secondary-400 text-[18px] font-medium text-neutral-950 shadow-sm transition-all duration-200 hover:bg-secondary-500 active:scale-95"
+            className="font-satoshi inline-flex h-11.5 w-28.5 cursor-pointer items-center justify-center rounded-full bg-secondary-400 text-[18px] font-medium text-neutral-950 shadow-sm transition-colors duration-200 hover:bg-secondary-500 select-none"
           >
             Continue
-          </button>
+          </motion.button>
         </div>
       </form>
 

@@ -6,7 +6,7 @@ export function CategoryCard({ category }: { category: CategoryItem }) {
   return (
     <Link
       href={category.href || '#'}
-      className="group flex h-38.75 w-[calc(50%-8px)] flex-col items-center justify-center rounded-3xl border border-neutral-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-lg sm:h-41.75 sm:w-[calc(33.333%-16px)] lg:w-41.75"
+      className="group flex h-38.75 w-full flex-col items-center justify-center rounded-3xl border border-neutral-200 bg-white transition-all duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-lg sm:h-41.75 lg:w-41.75"
     >
       {/* Lime Icon Circle */}
       <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full transition-transform duration-300 group-hover:scale-105 sm:h-15 sm:w-15">

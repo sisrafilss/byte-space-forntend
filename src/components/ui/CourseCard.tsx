@@ -32,7 +32,7 @@ interface CourseCardProps {
 export function CourseCard({ course, className = '' }: CourseCardProps) {
   return (
     <div
-      className={`group flex flex-col justify-between rounded-3xl border border-neutral-200/80 bg-white p-4 transition-all duration-300 hover:border-neutral-300 hover:shadow-xl ${className}`}
+      className={`group flex flex-col justify-between rounded-3xl border border-neutral-200/80 bg-white p-4 transition-all duration-300 hover:-translate-y-1.5 hover:border-neutral-300 hover:shadow-xl ${className}`}
     >
       {/* Top Thumbnail with overlay pills */}
       <div className="relative aspect-341/195 w-full overflow-hidden rounded-2xl bg-neutral-100">

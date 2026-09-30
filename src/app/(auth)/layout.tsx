@@ -1,6 +1,7 @@
 'use client';
 
 import { AuthVisualComposition } from '@/components/auth/AuthVisualComposition';
+import { FadeIn } from '@/components/ui/motion';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
@@ -59,8 +60,8 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
 
         {/* Middle Section: Left Content + Right Card */}
         <div className="my-auto flex flex-1 flex-col items-center justify-between gap-10 py-6 lg:flex-row lg:items-center lg:gap-12">
-          {/* Left Column: Heading, Subtitle & 3D Art Composition */}
-          <div className="flex w-full max-w-137 flex-col">
+          {/* Left Column: Heading, Subtitle & 3D Art Composition with FadeIn */}
+          <FadeIn direction="right" distance={20} duration={0.45} inView={false} className="flex w-full max-w-137 flex-col">
             <div className="max-w-118.75">
               <h1 className="font-poppins text-2xl font-semibold text-white sm:text-3xl lg:text-[24px] lg:leading-8">
                 {isRegister ? 'Sign up and come in' : 'Sign in with ease'}
@@ -76,14 +77,14 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
             <div className="relative mt-8 hidden lg:block">
               <AuthVisualComposition />
             </div>
-          </div>
+          </FadeIn>
 
-          {/* Right Column: White Card Container (Figma Register_Frame: w=579px) */}
-          <div className="w-full max-w-144.75 shrink-0">
+          {/* Right Column: White Card Container with FadeIn */}
+          <FadeIn direction="left" distance={20} duration={0.45} delay={0.06} inView={false} className="w-full max-w-144.75 shrink-0">
             <div className="w-full rounded-4xl bg-white p-6 text-neutral-950 shadow-2xl sm:rounded-[40px] sm:p-10 lg:p-12">
               {children}
             </div>
-          </div>
+          </FadeIn>
         </div>
 
         {/* Footer spacer to maintain balance */}

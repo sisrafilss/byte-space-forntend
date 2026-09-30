@@ -6,3 +6,4 @@ export * from './Logo';
 export * from './SearchBar';
 export * from './SectionHeading';
 export * from './StarRating';
+export * from './motion';
