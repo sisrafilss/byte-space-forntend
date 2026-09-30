@@ -1,4 +1,4 @@
-import { Navbar } from '@/components/layout/Navbar';
+import { Footer, Navbar } from '@/components/layout';
 import { CTASection } from '@/components/sections/CTASection';
 import { CategoriesSection } from '@/components/sections/CategoriesSection';
 import { CourseSection } from '@/components/sections/CourseSection';
@@ -33,6 +33,9 @@ export default function Home() {
 
       {/* Testimonials Section (Step 2.8) */}
       <TestimonialsSection />
+
+      {/* Footer Section (Step 2.9) */}
+      <Footer />
     </main>
   );
 }
