@@ -14,7 +14,7 @@ export function CourseSection() {
       : COURSES_DATA.filter((course) => course.category === activeTab);
 
   return (
-    <section id="courses" className="w-full bg-[#FFFFFF] py-16 sm:py-20 lg:py-24">
+    <section id="courses" className="w-full bg-white py-16 sm:py-20 lg:py-24">
       <Container>
         {/* Section Heading */}
         <SectionHeading
@@ -25,9 +25,9 @@ export function CourseSection() {
             </>
           }
           description="At Bytespace Courses, we bring you closer to life-changing knowledge. Explore a variety of courses across different fields, from technology to the arts, and make a difference in your career and life."
-          className="max-w-[920px]"
-          titleClassName="text-[#0C0C0D] tracking-[-0.01em]"
-          descriptionClassName="max-w-[860px] text-[#4F4F4F]"
+          className="max-w-230"
+          titleClassName="text-neutral-950 tracking-[-0.01em]"
+          descriptionClassName="max-w-215 text-neutral-600"
         />
 
         {/* Filter Tabs Component */}

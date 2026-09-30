@@ -21,7 +21,7 @@ export function StarRating({
 }: StarRatingProps) {
   return (
     <div className={cn('inline-flex items-center gap-1.5 select-none', className)}>
-      <Star size={size} className={cn('fill-[#CBFC01] text-[#CBFC01]', starClassName)} />
+      <Star size={size} className={cn('fill-secondary-500 text-secondary-500', starClassName)} />
       <span className="text-sm font-semibold text-neutral-900">{rating.toFixed(1)}</span>
       {showCount && count !== undefined && (
         <span className="text-xs text-neutral-500">({count})</span>

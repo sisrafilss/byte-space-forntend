@@ -40,7 +40,7 @@ export function PublicNavbar() {
         className={cn(
           'sticky top-0 z-50 w-full transition-all duration-300',
           isScrolled
-            ? 'bg-[#0445FF]/95 py-3.5 shadow-lg backdrop-blur-md'
+            ? 'bg-primary-600/95 py-3.5 shadow-lg backdrop-blur-md'
             : 'bg-transparent py-5 sm:py-6'
         )}
       >

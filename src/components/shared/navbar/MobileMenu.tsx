@@ -12,7 +12,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-x-0 top-[76px] bottom-0 z-40 flex flex-col bg-[#003BE2] px-6 py-8 md:hidden">
+    <div className="fixed inset-x-0 top-19 bottom-0 z-40 flex flex-col bg-primary-800 px-6 py-8 md:hidden">
       <nav className="flex flex-col gap-6">
         {DEFAULT_NAV_LINKS.map((link) => (
           <Link
@@ -41,7 +41,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <Link
             href="/register"
             onClick={onClose}
-            className="flex h-12 w-full items-center justify-center rounded-full bg-[#D4FB20] text-base font-semibold text-[#242528] shadow-sm transition-transform active:scale-98"
+            className="flex h-12 w-full items-center justify-center rounded-full bg-secondary-400 text-base font-semibold text-neutral-950 shadow-sm transition-transform active:scale-98"
           >
             Join Us
           </Link>

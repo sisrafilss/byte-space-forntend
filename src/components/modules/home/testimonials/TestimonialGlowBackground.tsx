@@ -22,26 +22,26 @@ export function TestimonialGlowBackground() {
 
         {/* Ellipse 11: Top-right Lime Glow */}
         <radialGradient id="testi-lime-glow1" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#CBFC01" stopOpacity="0.40" />
-          <stop offset="53%" stopColor="#CBFC01" stopOpacity="0.092" />
-          <stop offset="75%" stopColor="#CBFC01" stopOpacity="0.024" />
-          <stop offset="100%" stopColor="#CBFC01" stopOpacity="0" />
+          <stop offset="0%" stopColor="var(--color-secondary-500)" stopOpacity="0.40" />
+          <stop offset="53%" stopColor="var(--color-secondary-500)" stopOpacity="0.092" />
+          <stop offset="75%" stopColor="var(--color-secondary-500)" stopOpacity="0.024" />
+          <stop offset="100%" stopColor="var(--color-secondary-500)" stopOpacity="0" />
         </radialGradient>
 
         {/* Ellipse 12: Top-center Lime Glow */}
         <radialGradient id="testi-lime-glow2" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#CBFC01" stopOpacity="0.60" />
-          <stop offset="53%" stopColor="#CBFC01" stopOpacity="0.138" />
-          <stop offset="75%" stopColor="#CBFC01" stopOpacity="0.036" />
-          <stop offset="100%" stopColor="#CBFC01" stopOpacity="0" />
+          <stop offset="0%" stopColor="var(--color-secondary-500)" stopOpacity="0.60" />
+          <stop offset="53%" stopColor="var(--color-secondary-500)" stopOpacity="0.138" />
+          <stop offset="75%" stopColor="var(--color-secondary-500)" stopOpacity="0.036" />
+          <stop offset="100%" stopColor="var(--color-secondary-500)" stopOpacity="0" />
         </radialGradient>
 
         {/* Ellipse 8: Bottom-left Blue Glow */}
         <radialGradient id="testi-blue-glow" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#003BE2" stopOpacity="0.24" />
-          <stop offset="53%" stopColor="#003BE2" stopOpacity="0.055" />
-          <stop offset="75%" stopColor="#003BE2" stopOpacity="0.014" />
-          <stop offset="100%" stopColor="#003BE2" stopOpacity="0" />
+          <stop offset="0%" stopColor="var(--color-primary-800)" stopOpacity="0.24" />
+          <stop offset="53%" stopColor="var(--color-primary-800)" stopOpacity="0.055" />
+          <stop offset="75%" stopColor="var(--color-primary-800)" stopOpacity="0.014" />
+          <stop offset="100%" stopColor="var(--color-primary-800)" stopOpacity="0" />
         </radialGradient>
       </defs>
 

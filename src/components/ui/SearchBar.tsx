@@ -56,12 +56,12 @@ export function SearchBar({
     <form
       onSubmit={handleSubmit}
       className={cn(
-        'flex w-full max-w-[580px] items-center gap-2 rounded-full bg-white p-1.5 shadow-[0_12px_40px_rgba(0,0,0,0.18)] transition-all duration-200 focus-within:ring-4 focus-within:ring-white/20',
+        'flex w-full max-w-145 items-center gap-2 rounded-full bg-white p-1.5 shadow-[0_12px_40px_rgba(0,0,0,0.18)] transition-all duration-200 focus-within:ring-4 focus-within:ring-white/20',
         className
       )}
     >
       <div className="flex flex-1 items-center gap-3 pl-4 sm:pl-5">
-        {showIcon && <Search className="h-5 w-5 shrink-0 text-[#82868E]" />}
+        {showIcon && <Search className="h-5 w-5 shrink-0 text-neutral-400" />}
         <input
           type={type}
           name={name}
@@ -69,7 +69,7 @@ export function SearchBar({
           onChange={handleChange}
           placeholder={placeholder}
           className={cn(
-            'w-full bg-transparent font-sans text-sm text-neutral-900 outline-none placeholder:text-[#82868E] sm:text-base',
+            'w-full bg-transparent font-sans text-sm text-neutral-900 outline-none placeholder:text-neutral-400 sm:text-base',
             inputClassName
           )}
         />
@@ -77,7 +77,7 @@ export function SearchBar({
       <button
         type="submit"
         className={cn(
-          'shrink-0 rounded-full bg-[#D4FB20] px-6 py-2.5 font-sans text-sm font-semibold text-[#242528] transition-all duration-200 hover:bg-[#c3e813] active:scale-95 sm:px-7 sm:py-3 sm:text-base',
+          'shrink-0 rounded-full bg-secondary-400 px-6 py-2.5 font-sans text-sm font-semibold text-neutral-950 transition-all duration-200 hover:bg-secondary-300 active:scale-95 sm:px-7 sm:py-3 sm:text-base',
           buttonClassName
         )}
       >

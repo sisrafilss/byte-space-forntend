@@ -12,12 +12,12 @@ const AUTH_STUDENT_AVATARS = [
 
 export function AuthHappyStudentsCard() {
   return (
-    <div className="absolute top-[435px] left-[251px] z-40 flex h-[123px] w-[258px] flex-col justify-between rounded-[24px] bg-[#D4FB20] p-4 shadow-xl">
+    <div className="absolute top-108.75 left-62.75 z-40 flex h-30.75 w-64.5 flex-col justify-between rounded-3xl bg-secondary-400 p-4 shadow-xl">
       <div>
         <h4 className="font-satoshi text-[16px] font-semibold text-neutral-950">Happy Students</h4>
         <div className="font-satoshi flex items-center gap-1 text-[11px] text-neutral-700">
           <span>4.5 (240)</span>
-          <span className="text-[#003BE2]">★</span>
+          <span className="text-primary-800">★</span>
         </div>
       </div>
 

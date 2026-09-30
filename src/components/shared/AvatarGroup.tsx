@@ -47,7 +47,7 @@ export function AvatarGroup({ avatars, count, size = 'md', className = '' }: Ava
       ))}
       {count && (
         <div
-          className={`font-satoshi flex ${sizeClasses.wrapper} shrink-0 items-center justify-center rounded-full border-2 border-white bg-[#D4FB20] ${sizeClasses.text} font-bold text-[#242528] shadow-2xs`}
+          className={`font-satoshi flex ${sizeClasses.wrapper} shrink-0 items-center justify-center rounded-full border-2 border-white bg-secondary-400 ${sizeClasses.text} font-bold text-neutral-950 shadow-2xs`}
         >
           {count}
         </div>

@@ -16,7 +16,7 @@ export function HeroSection() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-[#003BE2] pt-4 pb-0 text-white select-none sm:pt-8 lg:pt-10">
+    <section className="relative overflow-hidden bg-primary-800 pt-4 pb-0 text-white select-none sm:pt-8 lg:pt-10">
       {/* Figma 120px Grid Background Overlay (Group 4 in Figma, 12% opacity) */}
       <div
         className="pointer-events-none absolute inset-0 z-0"
@@ -36,7 +36,7 @@ export function HeroSection() {
       {/* Main Content Container */}
       <Container className="relative z-10 flex flex-col items-center text-center">
         {/* Main Heading */}
-        <h1 className="font-poppins max-w-4xl text-[34px] leading-[1.15] font-semibold tracking-[-0.01em] text-white sm:text-[48px] md:text-[56px] lg:text-[64px] lg:leading-[74px]">
+        <h1 className="font-poppins max-w-4xl text-[34px] leading-[1.15] font-semibold tracking-[-0.01em] text-white sm:text-[48px] md:text-[56px] lg:text-[64px] lg:leading-18.5">
           Get Access to Hundreds Courses Available
         </h1>
 

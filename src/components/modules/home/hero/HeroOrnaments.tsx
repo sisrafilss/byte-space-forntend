@@ -6,7 +6,7 @@ export function HeroOrnaments() {
       {/* 3D Decorative Ornaments - Left Side */}
       {/* 1. Top-Left Lime Spiral */}
       <div
-        className="pointer-events-none absolute top-[180px] left-0 z-10 hidden w-[130px] md:block lg:top-[210px] lg:w-[190px] xl:w-[200px]"
+        className="pointer-events-none absolute top-45 left-0 z-10 hidden w-32.5 md:block lg:top-52.5 lg:w-47.5 xl:w-50"
         aria-hidden="true"
       >
         <Image
@@ -23,7 +23,7 @@ export function HeroOrnaments() {
 
       {/* 2. Mid-Left White Zigzag Ribbon */}
       <div
-        className="pointer-events-none absolute top-[450px] left-[6%] z-10 hidden w-[75px] md:block lg:top-[475px] lg:left-[9%] lg:w-[110px] xl:left-[11%] xl:w-[120px]"
+        className="pointer-events-none absolute top-112.5 left-[6%] z-10 hidden w-18.75 md:block lg:top-118.75 lg:left-[9%] lg:w-27.5 xl:left-[11%] xl:w-30"
         aria-hidden="true"
       >
         <Image
@@ -39,7 +39,7 @@ export function HeroOrnaments() {
 
       {/* 3. Bottom-Left White Donut */}
       <div
-        className="pointer-events-none absolute bottom-[30px] left-[1%] z-10 hidden w-[140px] md:block lg:bottom-[40px] lg:left-[2%] lg:w-[200px] xl:left-[3%] xl:w-[220px]"
+        className="pointer-events-none absolute bottom-7.5 left-[1%] z-10 hidden w-35 md:block lg:bottom-10 lg:left-[2%] lg:w-50 xl:left-[3%] xl:w-55"
         aria-hidden="true"
       >
         <Image
@@ -56,7 +56,7 @@ export function HeroOrnaments() {
       {/* 3D Decorative Ornaments - Right Side */}
       {/* 4. Top-Right Lime Cone */}
       <div
-        className="pointer-events-none absolute top-[180px] right-0 z-10 hidden w-[140px] md:block lg:top-[210px] lg:w-[210px] xl:w-[220px]"
+        className="pointer-events-none absolute top-45 right-0 z-10 hidden w-35 md:block lg:top-52.5 lg:w-52.5 xl:w-55"
         aria-hidden="true"
       >
         <Image
@@ -73,7 +73,7 @@ export function HeroOrnaments() {
 
       {/* 5. Mid-Right White Pyramid */}
       <div
-        className="pointer-events-none absolute top-[440px] right-[6%] z-10 hidden w-[95px] md:block lg:top-[460px] lg:right-[9%] lg:w-[150px] xl:right-[11%] xl:w-[170px]"
+        className="pointer-events-none absolute top-110 right-[6%] z-10 hidden w-23.75 md:block lg:top-115 lg:right-[9%] lg:w-37.5 xl:right-[11%] xl:w-42.5"
         aria-hidden="true"
       >
         <Image
@@ -89,7 +89,7 @@ export function HeroOrnaments() {
 
       {/* 6. Bottom-Right White Zigzag Ribbon */}
       <div
-        className="pointer-events-none absolute right-[1%] bottom-[40px] z-10 hidden w-[130px] md:block lg:right-[2%] lg:bottom-[60px] lg:w-[190px] xl:right-[3%] xl:w-[210px]"
+        className="pointer-events-none absolute right-[1%] bottom-10 z-10 hidden w-32.5 md:block lg:right-[2%] lg:bottom-15 lg:w-47.5 xl:right-[3%] xl:w-52.5"
         aria-hidden="true"
       >
         <Image

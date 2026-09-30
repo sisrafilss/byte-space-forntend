@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white font-sans text-neutral-950">
       {/* Top Header & Hero Area with Vibrant Brand Blue Background */}
-      <div className="relative w-full bg-[#003BE2]">
+      <div className="relative w-full bg-primary-800">
         <PublicNavbar />
         <HeroSection />
       </div>

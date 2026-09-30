@@ -45,11 +45,11 @@ export function GrowthSection() {
         <Container>
           <div className="flex flex-col items-center gap-10 lg:flex-row lg:gap-16">
             {/* ---- Left: Text ---- */}
-            <div className="w-full max-w-[574px] lg:max-w-none lg:flex-1">
-              <h2 className="font-poppins text-[28px] leading-[1.2] font-semibold tracking-[-0.01em] text-[#242528] sm:text-[38px] lg:text-[44px]">
+            <div className="w-full max-w-143.5 lg:max-w-none lg:flex-1">
+              <h2 className="font-poppins text-[28px] leading-[1.2] font-semibold tracking-[-0.01em] text-neutral-950 sm:text-[38px] lg:text-[44px]">
                 Your Path to Professional Growth Starts Here!
               </h2>
-              <p className="font-satoshi mt-4 max-w-[477px] text-[15px] leading-relaxed text-[#4B4C53] sm:mt-5 sm:text-[18px]">
+              <p className="font-satoshi mt-4 max-w-119.25 text-[15px] leading-relaxed text-neutral-700 sm:mt-5 sm:text-[18px]">
                 Explore our curated selection of courses tailored to enhance your capabilities and
                 accelerate your career journey. Whether you are looking to sharpen specific skills,
                 gain industry expertise, or embark on a new career path entirely, we have the
@@ -61,7 +61,7 @@ export function GrowthSection() {
             </div>
 
             {/* ---- Right: Composite UI ---- */}
-            <div className="relative mt-4 h-[380px] w-full max-w-[580px] sm:mt-0 sm:h-[460px] lg:h-[530px] lg:flex-1">
+            <div className="relative mt-4 h-95 w-full max-w-145 sm:mt-0 sm:h-115 lg:h-132.5 lg:flex-1">
               {/* z-1: Course Card — top-left, behind person */}
               <div className="absolute top-0 left-0 z-10">
                 <MiniCourseCard />
@@ -85,7 +85,7 @@ export function GrowthSection() {
 
               {/* z-4: Lime squiggle — top-right */}
               <div className="absolute z-30" style={{ right: '-5px', top: '2%' }}>
-                <div className="h-[75px] w-[75px] sm:h-[95px] sm:w-[95px] lg:h-[105px] lg:w-[105px]">
+                <div className="h-18.75 w-18.75 sm:h-23.75 sm:w-23.75 lg:h-26.25 lg:w-26.25">
                   <LimeSquiggle className="h-full w-full" />
                 </div>
               </div>
@@ -141,7 +141,7 @@ export function GrowthSection() {
         <Container>
           <div className="flex flex-col items-center gap-10 lg:flex-row lg:gap-16">
             {/* ---- Left: Composite UI ---- */}
-            <div className="relative order-2 mt-4 h-[390px] w-full max-w-[540px] sm:mt-0 sm:h-[480px] lg:order-1 lg:h-[540px] lg:flex-1">
+            <div className="relative order-2 mt-4 h-97.5 w-full max-w-135 sm:mt-0 sm:h-120 lg:order-1 lg:h-135 lg:flex-1">
               {/* z-1: Total Revenue Card — top-left, behind person */}
               <div className="absolute z-10" style={{ left: 0, top: '5%' }}>
                 <RevenueDashboard />
@@ -160,7 +160,7 @@ export function GrowthSection() {
 
               {/* z-5: Lime squiggle — center-right, IN FRONT of person */}
               <div className="absolute z-30" style={{ left: '52%', top: '12%' }}>
-                <div className="h-[75px] w-[75px] sm:h-[85px] sm:w-[85px] lg:h-[95px] lg:w-[95px]">
+                <div className="h-18.75 w-18.75 sm:h-21.25 sm:w-21.25 lg:h-23.75 lg:w-23.75">
                   <LimeSquiggle className="h-full w-full" />
                 </div>
               </div>
@@ -172,12 +172,12 @@ export function GrowthSection() {
             </div>
 
             {/* ---- Right: Text ---- */}
-            <div className="order-1 w-full max-w-[580px] lg:order-2 lg:max-w-none lg:flex-1">
-              <h2 className="font-poppins text-[28px] leading-[1.2] font-semibold tracking-[-0.01em] text-[#242528] sm:text-[38px] lg:text-[44px]">
+            <div className="order-1 w-full max-w-145 lg:order-2 lg:max-w-none lg:flex-1">
+              <h2 className="font-poppins text-[28px] leading-[1.2] font-semibold tracking-[-0.01em] text-neutral-950 sm:text-[38px] lg:text-[44px]">
                 Create & Manage Courses Easily.
               </h2>
-              <p className="font-satoshi mt-4 text-[15px] leading-relaxed text-[#4B4C53] sm:mt-5 sm:text-[18px]">
-                <strong className="font-bold text-[#242528]">ByteSpace</strong> supports individuals
+              <p className="font-satoshi mt-4 text-[15px] leading-relaxed text-neutral-700 sm:mt-5 sm:text-[18px]">
+                <strong className="font-bold text-neutral-950">ByteSpace</strong> supports individuals
                 or entities in the creation, publication, and administration of educational courses.
               </p>
 

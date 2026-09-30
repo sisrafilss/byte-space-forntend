@@ -24,8 +24,8 @@ export function CourseFilterTabs({ activeTab, onTabChange }: CourseFilterTabsPro
               onClick={() => onTabChange(cat)}
               className={`font-satoshi cursor-pointer rounded-full px-4 py-2.5 text-[15px] font-medium transition-all duration-200 ${
                 activeTab === cat
-                  ? 'bg-[#D4FB20] text-[#0C0C0D] shadow-xs'
-                  : 'bg-[#F5F5F6] text-[#0C0C0D] hover:bg-[#EBECEE]'
+                  ? 'bg-secondary-400 text-neutral-950 shadow-xs'
+                  : 'bg-neutral-50 text-neutral-950 hover:bg-neutral-100'
               }`}
             >
               {cat}
@@ -42,8 +42,8 @@ export function CourseFilterTabs({ activeTab, onTabChange }: CourseFilterTabsPro
               onClick={() => onTabChange(cat)}
               className={`font-satoshi cursor-pointer rounded-full px-4 py-2.5 text-[15px] font-medium transition-all duration-200 ${
                 activeTab === cat
-                  ? 'bg-[#D4FB20] text-[#0C0C0D] shadow-xs'
-                  : 'bg-[#F5F5F6] text-[#0C0C0D] hover:bg-[#EBECEE]'
+                  ? 'bg-secondary-400 text-neutral-950 shadow-xs'
+                  : 'bg-neutral-50 text-neutral-950 hover:bg-neutral-100'
               }`}
             >
               {cat}
@@ -60,8 +60,8 @@ export function CourseFilterTabs({ activeTab, onTabChange }: CourseFilterTabsPro
               onClick={() => onTabChange(cat)}
               className={`font-satoshi cursor-pointer rounded-full px-4 py-2.5 text-[15px] font-medium transition-all duration-200 ${
                 activeTab === cat
-                  ? 'bg-[#D4FB20] text-[#0C0C0D] shadow-xs'
-                  : 'bg-[#F5F5F6] text-[#0C0C0D] hover:bg-[#EBECEE]'
+                  ? 'bg-secondary-400 text-neutral-950 shadow-xs'
+                  : 'bg-neutral-50 text-neutral-950 hover:bg-neutral-100'
               }`}
             >
               {cat}
@@ -71,7 +71,7 @@ export function CourseFilterTabs({ activeTab, onTabChange }: CourseFilterTabsPro
           <button
             type="button"
             onClick={() => onTabChange('Featured')}
-            className="font-satoshi cursor-pointer px-3 py-2 text-[15px] font-medium text-[#003BE2] transition-colors hover:underline"
+            className="font-satoshi cursor-pointer px-3 py-2 text-[15px] font-medium text-primary-800 transition-colors hover:underline"
           >
             + More
           </button>
@@ -88,8 +88,8 @@ export function CourseFilterTabs({ activeTab, onTabChange }: CourseFilterTabsPro
               onClick={() => onTabChange(cat)}
               className={`font-satoshi rounded-full px-3.5 py-2 text-[14px] font-medium transition-all duration-200 ${
                 activeTab === cat
-                  ? 'bg-[#D4FB20] text-[#0C0C0D] shadow-xs'
-                  : 'bg-[#F5F5F6] text-[#0C0C0D] active:bg-[#EBECEE]'
+                  ? 'bg-secondary-400 text-neutral-950 shadow-xs'
+                  : 'bg-neutral-50 text-neutral-950 active:bg-neutral-100'
               }`}
             >
               {cat}
@@ -98,7 +98,7 @@ export function CourseFilterTabs({ activeTab, onTabChange }: CourseFilterTabsPro
           <button
             type="button"
             onClick={() => setShowAllMobile(!showAllMobile)}
-            className="font-satoshi cursor-pointer px-2.5 py-1.5 text-[14px] font-medium text-[#003BE2] hover:underline"
+            className="font-satoshi cursor-pointer px-2.5 py-1.5 text-[14px] font-medium text-primary-800 hover:underline"
           >
             {showAllMobile ? 'Show Less' : '+ More'}
           </button>

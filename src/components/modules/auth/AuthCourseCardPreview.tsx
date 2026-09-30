@@ -11,8 +11,8 @@ export function AuthCourseCardPreview() {
   return (
     <>
       {/* Back Course Card: "Build Digital Asset" */}
-      <div className="absolute top-[89px] left-[25px] z-10 flex h-[384px] w-[373px] flex-col rounded-[24px] bg-white p-4 shadow-xl">
-        <div className="relative h-[188px] w-full overflow-hidden rounded-[16px] bg-neutral-100">
+      <div className="absolute top-22.25 left-6.25 z-10 flex h-96 w-93.25 flex-col rounded-3xl bg-white p-4 shadow-xl">
+        <div className="relative h-47 w-full overflow-hidden rounded-2xl bg-neutral-100">
           <Image
             src="/assets/images/Frame_49_252.png"
             alt="Build Digital Asset"
@@ -35,10 +35,10 @@ export function AuthCourseCardPreview() {
               </h3>
               <div className="font-satoshi flex items-center gap-1 text-[14px] font-medium text-neutral-600">
                 <span>4.5</span>
-                <span className="text-[#D4FB20]">★</span>
+                <span className="text-secondary-400">★</span>
               </div>
             </div>
-            <p className="font-satoshi text-[12px] font-normal text-[#003BE2]">
+            <p className="font-satoshi text-[12px] font-normal text-primary-800">
               by purepearl studio
             </p>
           </div>
@@ -76,8 +76,8 @@ export function AuthCourseCardPreview() {
       </div>
 
       {/* Front Course Card: "the Power of Big Data" */}
-      <div className="absolute top-[0px] left-[136px] z-20 flex h-[384px] w-[373px] flex-col rounded-[24px] bg-white p-4 shadow-2xl">
-        <div className="relative h-[188px] w-full overflow-hidden rounded-[16px] bg-neutral-100">
+      <div className="absolute top-0 left-34 z-20 flex h-96 w-93.25 flex-col rounded-3xl bg-white p-4 shadow-2xl">
+        <div className="relative h-47 w-full overflow-hidden rounded-2xl bg-neutral-100">
           <Image
             src="/assets/images/Frame_49_283.png"
             alt="the Power of Big Data"
@@ -109,10 +109,10 @@ export function AuthCourseCardPreview() {
               </h3>
               <div className="font-satoshi flex items-center gap-1 text-[14px] font-medium text-neutral-600">
                 <span>4.5</span>
-                <span className="text-[#cbf801]">★</span>
+                <span className="text-secondary-500">★</span>
               </div>
             </div>
-            <p className="font-satoshi text-[12px] font-normal text-[#003BE2]">
+            <p className="font-satoshi text-[12px] font-normal text-primary-800">
               by purepearl studio
             </p>
           </div>

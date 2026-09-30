@@ -4,7 +4,7 @@ export function Auth3DOrnaments() {
   return (
     <>
       {/* 1. Lime Torus 3D (rel_x=54, rel_y=15, 146x146, z-30) */}
-      <div className="pointer-events-none absolute top-[15px] left-[54px] z-30 h-[146px] w-[146px]">
+      <div className="pointer-events-none absolute top-3.75 left-13.5 z-30 h-36.5 w-36.5">
         <Image
           src="/assets/images/cta_torus_lime.png"
           alt=""
@@ -15,7 +15,7 @@ export function Auth3DOrnaments() {
       </div>
 
       {/* 2. White Frosted Coil 3D (rel_x=373, rel_y=321, 175x175, z-25) */}
-      <div className="pointer-events-none absolute top-[321px] left-[373px] z-25 h-[175px] w-[175px]">
+      <div className="pointer-events-none absolute top-80.25 left-93.25 z-25 h-43.75 w-43.75">
         <Image
           src="/assets/images/cta_coil_white.png"
           alt=""
@@ -26,7 +26,7 @@ export function Auth3DOrnaments() {
       </div>
 
       {/* 3. Yellow Pyramid 3D (rel_x=0, rel_y=397, 188x188, z-30) */}
-      <div className="pointer-events-none absolute top-[397px] left-[0px] z-30 h-[188px] w-[188px]">
+      <div className="pointer-events-none absolute top-99.25 left-0 z-30 h-47 w-47">
         <Image
           src="/assets/images/cta_pyramid_lime.png"
           alt=""

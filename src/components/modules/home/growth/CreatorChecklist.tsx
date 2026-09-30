@@ -9,8 +9,7 @@ export function CreatorChecklist() {
             width="20"
             height="20"
             viewBox="0 0 24 24"
-            fill="#003BE2"
-            className="shrink-0 sm:h-[22px] sm:w-[22px]"
+            className="fill-primary-800 shrink-0 sm:h-5.5 sm:w-5.5"
             aria-hidden="true"
           >
             <path
@@ -19,7 +18,7 @@ export function CreatorChecklist() {
               d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 16.2L5.8 12L7.2 10.6L10 13.4L16.8 6.6L18.2 8L10 16.2Z"
             />
           </svg>
-          <span className="font-satoshi text-[15px] font-medium text-[#242528] sm:text-[18px]">
+          <span className="font-satoshi text-[15px] font-medium text-neutral-950 sm:text-[18px]">
             {item}
           </span>
         </li>

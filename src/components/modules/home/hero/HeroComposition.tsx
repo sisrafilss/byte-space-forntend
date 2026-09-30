@@ -5,15 +5,15 @@ import Image from 'next/image';
 
 export function HeroComposition() {
   return (
-    <div className="relative mt-8 flex w-full max-w-[850px] items-end justify-center sm:mt-12 lg:mt-14">
+    <div className="relative mt-8 flex w-full max-w-212.5 items-end justify-center sm:mt-12 lg:mt-14">
       {/* Big Neon Lime Circle Background (Figma Ellipse 7: 730px × 730px #D4FB20) */}
       <div
-        className="absolute -bottom-24 h-[340px] w-[340px] rounded-full bg-[#D4FB20] shadow-[0_20px_60px_rgba(0,0,0,0.25)] sm:-bottom-32 sm:h-[500px] sm:w-[500px] md:h-[620px] md:w-[620px] lg:-bottom-40 lg:h-[730px] lg:w-[730px]"
+        className="absolute -bottom-24 h-85 w-85 rounded-full bg-secondary-400 shadow-[0_20px_60px_rgba(0,0,0,0.25)] sm:-bottom-32 sm:h-125 sm:w-125 md:h-155 md:w-155 lg:-bottom-40 lg:h-182.5 lg:w-182.5"
         aria-hidden="true"
       />
 
       {/* Central Hero Boy Image (Image_1_1796: 578px × 541px) */}
-      <div className="pointer-events-none relative z-10 -mb-1 h-auto w-[290px] select-none sm:w-[420px] md:w-[500px] lg:w-[578px]">
+      <div className="pointer-events-none relative z-10 -mb-1 h-auto w-72.5 select-none sm:w-105 md:w-125 lg:w-144.5">
         <Image
           src="/assets/images/Image_1_1796.png"
           alt="ByteSpace student learning online with laptop"

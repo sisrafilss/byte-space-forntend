@@ -4,7 +4,7 @@ export function RegisterForm() {
   return (
     <div className="flex flex-col">
       {/* Top Header */}
-      <span className="font-satoshi text-[18px] font-normal text-[#003BE2]">Create an Account</span>
+      <span className="font-satoshi text-[18px] font-normal text-primary-800">Create an Account</span>
       <h2 className="font-poppins mt-2 text-[32px] leading-tight font-semibold text-neutral-950 sm:text-[44px]">
         Welcome to ByteSpace
       </h2>
@@ -16,7 +16,7 @@ export function RegisterForm() {
           <input
             type="text"
             placeholder="Jamie Davis"
-            className="font-satoshi h-[52px] w-full rounded-[12px] border border-[#CED0D3] bg-white px-6 text-[16px] text-neutral-950 transition-colors placeholder:text-neutral-400 focus:border-[#003BE2] focus:outline-none"
+            className="font-satoshi h-13 w-full rounded-xl border border-neutral-200 bg-white px-6 text-[16px] text-neutral-950 transition-colors placeholder:text-neutral-400 focus:border-primary-800 focus:outline-none"
           />
         </div>
 
@@ -25,7 +25,7 @@ export function RegisterForm() {
           <input
             type="email"
             placeholder="designer@example.com"
-            className="font-satoshi h-[52px] w-full rounded-[12px] border border-[#CED0D3] bg-white px-6 text-[16px] text-neutral-950 transition-colors placeholder:text-neutral-400 focus:border-[#003BE2] focus:outline-none"
+            className="font-satoshi h-13 w-full rounded-xl border border-neutral-200 bg-white px-6 text-[16px] text-neutral-950 transition-colors placeholder:text-neutral-400 focus:border-primary-800 focus:outline-none"
           />
         </div>
 
@@ -34,14 +34,14 @@ export function RegisterForm() {
           <input
             type="password"
             placeholder="********"
-            className="font-satoshi h-[52px] w-full rounded-[12px] border border-[#CED0D3] bg-white px-6 text-[16px] text-neutral-950 transition-colors placeholder:text-neutral-400 focus:border-[#003BE2] focus:outline-none"
+            className="font-satoshi h-13 w-full rounded-xl border border-neutral-200 bg-white px-6 text-[16px] text-neutral-950 transition-colors placeholder:text-neutral-400 focus:border-primary-800 focus:outline-none"
           />
         </div>
 
         <div className="flex justify-end pt-2">
           <button
             type="submit"
-            className="font-satoshi inline-flex h-[46px] w-[114px] cursor-pointer items-center justify-center rounded-full bg-[#D4FB20] text-[18px] font-medium text-neutral-950 shadow-sm transition-all duration-200 hover:bg-[#cbf801] active:scale-95"
+            className="font-satoshi inline-flex h-11.5 w-28.5 cursor-pointer items-center justify-center rounded-full bg-secondary-400 text-[18px] font-medium text-neutral-950 shadow-sm transition-all duration-200 hover:bg-secondary-500 active:scale-95"
           >
             Continue
           </button>
@@ -50,10 +50,10 @@ export function RegisterForm() {
 
       {/* Switch Link */}
       <div className="mt-12 text-center">
-        <span className="font-satoshi text-[16px] text-[#888888]">Already have an account? </span>
+        <span className="font-satoshi text-[16px] text-neutral-400">Already have an account? </span>
         <Link
           href="/login"
-          className="font-satoshi text-[16px] font-medium text-[#003BE2] hover:underline"
+          className="font-satoshi text-[16px] font-medium text-primary-800 hover:underline"
         >
           Login
         </Link>

@@ -32,10 +32,10 @@ interface CourseCardProps {
 export function CourseCard({ course, className = '' }: CourseCardProps) {
   return (
     <div
-      className={`group flex flex-col justify-between rounded-[24px] border border-[#CECFD3]/80 bg-white p-4 transition-all duration-300 hover:border-neutral-300 hover:shadow-xl ${className}`}
+      className={`group flex flex-col justify-between rounded-3xl border border-neutral-200/80 bg-white p-4 transition-all duration-300 hover:border-neutral-300 hover:shadow-xl ${className}`}
     >
       {/* Top Thumbnail with overlay pills */}
-      <div className="relative aspect-[341/195] w-full overflow-hidden rounded-[16px] bg-neutral-100">
+      <div className="relative aspect-341/195 w-full overflow-hidden rounded-2xl bg-neutral-100">
         <Image
           src={course.thumbnail}
           alt={course.title}
@@ -46,13 +46,13 @@ export function CourseCard({ course, className = '' }: CourseCardProps) {
 
         {/* Bottom Overlay Pills */}
         <div className="absolute right-2.5 bottom-2.5 left-2.5 flex items-center justify-between gap-1.5 sm:gap-2">
-          <span className="font-satoshi rounded-full bg-[#F6F6F6]/80 px-2.5 py-1 text-[11px] font-medium whitespace-nowrap text-[#4F4F4F] shadow-2xs backdrop-blur-[8px] sm:px-3 sm:text-[12px]">
+          <span className="font-satoshi rounded-full bg-neutral-50/80 px-2.5 py-1 text-[11px] font-medium whitespace-nowrap text-neutral-600 shadow-2xs backdrop-blur-sm sm:px-3 sm:text-[12px]">
             {course.lessons}
           </span>
-          <span className="font-satoshi rounded-full bg-[#F6F6F6]/80 px-2.5 py-1 text-[11px] font-medium whitespace-nowrap text-[#4F4F4F] shadow-2xs backdrop-blur-[8px] sm:px-3 sm:text-[12px]">
+          <span className="font-satoshi rounded-full bg-neutral-50/80 px-2.5 py-1 text-[11px] font-medium whitespace-nowrap text-neutral-600 shadow-2xs backdrop-blur-sm sm:px-3 sm:text-[12px]">
             {course.duration}
           </span>
-          <span className="font-satoshi rounded-full bg-[#F6F6F6]/80 px-2.5 py-1 text-[11px] font-medium whitespace-nowrap text-[#4F4F4F] shadow-2xs backdrop-blur-[8px] sm:px-3 sm:text-[12px]">
+          <span className="font-satoshi rounded-full bg-neutral-50/80 px-2.5 py-1 text-[11px] font-medium whitespace-nowrap text-neutral-600 shadow-2xs backdrop-blur-sm sm:px-3 sm:text-[12px]">
             {course.comments}
           </span>
         </div>
@@ -64,13 +64,13 @@ export function CourseCard({ course, className = '' }: CourseCardProps) {
           {/* Title & Rating */}
           <div className="flex items-start justify-between gap-2">
             <h3
-              className="font-poppins group-hover:text-primary-600 line-clamp-1 text-[18px] leading-[26px] font-semibold text-[#0C0C0D] transition-colors sm:text-[20px] sm:leading-[28px]"
+              className="font-poppins group-hover:text-primary-600 line-clamp-1 text-[18px] leading-6.5 font-semibold text-neutral-950 transition-colors sm:text-[20px] sm:leading-7"
               title={course.title}
             >
               {course.title}
             </h3>
             <div className="flex shrink-0 items-center gap-1 pt-0.5">
-              <span className="font-satoshi text-[17px] leading-none font-medium text-[#4F4F4F] sm:text-[18px]">
+              <span className="font-satoshi text-[17px] leading-none font-medium text-neutral-600 sm:text-[18px]">
                 {course.rating.toFixed(1)}
               </span>
               <svg
@@ -78,7 +78,7 @@ export function CourseCard({ course, className = '' }: CourseCardProps) {
                 height="18"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="text-[#CECFD3]"
+                className="text-neutral-200"
                 aria-hidden="true"
               >
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
@@ -87,8 +87,8 @@ export function CourseCard({ course, className = '' }: CourseCardProps) {
           </div>
 
           {/* Author */}
-          <p className="font-satoshi mt-1 text-[12px] text-[#4F4F4F]">
-            by <span className="font-medium text-[#003BE2]">{course.author}</span>
+          <p className="font-satoshi mt-1 text-[12px] text-neutral-600">
+            by <span className="font-medium text-primary-800">{course.author}</span>
           </p>
         </div>
 
@@ -96,13 +96,13 @@ export function CourseCard({ course, className = '' }: CourseCardProps) {
           {/* Level Badge + Avatar Stack */}
           <div className="mt-3.5 flex items-center justify-between pt-0.5">
             {/* Beginner Level Badge */}
-            <div className="font-satoshi inline-flex items-center gap-1.5 rounded-full bg-[#F5F5F6] px-3 py-1.5 text-[12px] font-medium text-[#4B4C53]">
+            <div className="font-satoshi inline-flex items-center gap-1.5 rounded-full bg-neutral-50 px-3 py-1.5 text-[12px] font-medium text-neutral-700">
               <svg
                 width="14"
                 height="14"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="text-[#4B4C53]"
+                className="text-neutral-700"
                 aria-hidden="true"
               >
                 <rect x="3" y="14" width="4" height="6" rx="1" />
@@ -129,7 +129,7 @@ export function CourseCard({ course, className = '' }: CourseCardProps) {
                 </div>
               ))}
               {/* Count Circle (e.g. 26+) */}
-              <div className="font-satoshi flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-white bg-[#D4FB20] text-[12px] font-bold text-[#242528] shadow-2xs">
+              <div className="font-satoshi flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-white bg-secondary-400 text-[12px] font-bold text-neutral-950 shadow-2xs">
                 {course.studentsCount}
               </div>
             </div>
@@ -137,10 +137,10 @@ export function CourseCard({ course, className = '' }: CourseCardProps) {
 
           {/* Price */}
           <div className="mt-3.5 flex items-baseline gap-1">
-            <span className="font-poppins text-[20px] leading-none font-bold text-[#003BE2]">
+            <span className="font-poppins text-[20px] leading-none font-bold text-primary-800">
               {course.price}
             </span>
-            <span className="font-satoshi text-[12px] text-[#4F4F4F]">{course.period}</span>
+            <span className="font-satoshi text-[12px] text-neutral-600">{course.period}</span>
           </div>
         </div>
       </div>
