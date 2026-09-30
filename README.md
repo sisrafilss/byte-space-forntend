@@ -21,12 +21,12 @@ A pixel-perfect, fully responsive, and highly interactive e-learning frontend we
 
 ## 📸 Visual Previews & Pages
 
-| Landing Page (Home) | Custom 404 Error Page |
-| :---: | :---: |
+|                       Landing Page (Home)                        |                       Custom 404 Error Page                       |
+| :--------------------------------------------------------------: | :---------------------------------------------------------------: |
 | ![ByteSpace Landing Page](./public/assets/mockups/home_full.png) | ![ByteSpace 404 Page](./public/assets/mockups/not_found_full.png) |
 
-| Login Page | Register Page |
-| :---: | :---: |
+|                         Login Page                         |                          Register Page                           |
+| :--------------------------------------------------------: | :--------------------------------------------------------------: |
 | ![ByteSpace Login](./public/assets/mockups/login_full.png) | ![ByteSpace Register](./public/assets/mockups/register_full.png) |
 
 ---
@@ -34,7 +34,9 @@ A pixel-perfect, fully responsive, and highly interactive e-learning frontend we
 ## ✨ Key Features & Page Overview
 
 ### 1. Landing Page (`/`)
+
 Built with 10 modular, pixel-perfect sections matching the exact Figma specifications:
+
 1. **Header & Navigation:** ByteSpace SVG brand identity, desktop menu links, and an accessible slide-over mobile drawer navigation.
 2. **Hero Section:** Signature 120px grid background pattern (12% opacity), 3D geometric ornaments, floating interactive micro-cards (UI/UX Design, Learning Progress 55%, Happy Students rating), and a responsive course search input.
 3. **Partner Logos Bar:** Partner brand showcase with high-DPI SVG vectors, styled for responsive viewing across screens.
@@ -47,17 +49,20 @@ Built with 10 modular, pixel-perfect sections matching the exact Figma specifica
 10. **Footer:** Comprehensive footer with newsletter subscription, platform and browse links, copyright bar, and legal disclosures.
 
 ### 2. Authentication Suite (`/login` & `/register`) — Extra Credit
+
 - **Shared Auth Layout (`(auth)/layout.tsx`):** Branded split-screen experience with primary blue background, 120px grid, 3D geometric decorations, and floating rating badges on desktop.
 - **Login Page (`/login`):** Email & password inputs, social auth buttons (Google & Facebook), and seamless link to registration.
 - **Register Page (`/register`):** Full name, email, and password form fields with client-side state handling and toggle links.
 - **Mobile Responsive:** Fluid single-column card layout on smaller viewports with full accessibility.
 
 ### 3. Custom 404 Page (`/not-found`)
+
 - Exact Figma design fidelity featuring the towering gradient "404" header (`#00249A` to transparent fade).
 - Figma 120px grid background overlay.
 - Clear error explanation, heading hierarchy, and primary "Back to Home" call-to-action button.
 
 ### 4. GPU-Accelerated Animations (`motion`)
+
 - Built using **Motion** (Framer Motion engine for React 19).
 - Reusable animation primitives in `src/components/ui/motion/`:
   - `FadeIn`: Directional fade-in and slide animations with configurable duration and stagger delays.
@@ -69,17 +74,18 @@ Built with 10 modular, pixel-perfect sections matching the exact Figma specifica
 
 ## 🛠️ Tech Stack & Design System
 
-| Technology | Version | Purpose |
-| :--- | :--- | :--- |
-| **Next.js** | `16.0` (App Router) | React framework with Server Components & optimized asset pipelines |
-| **React** | `19.0` | Latest React engine with concurrent rendering |
-| **TypeScript** | `5.0+` | End-to-end type safety across components and utilities |
-| **Tailwind CSS** | `v4` | High-performance CSS engine using modern CSS variables & design tokens |
-| **Motion** | `13.4` | Smooth declarative animations and micro-interactions |
-| **Lucide React** | `0.544` | Crisp, scalable UI icons |
-| **pnpm** | `Latest` | Fast, disk-space efficient package manager |
+| Technology       | Version             | Purpose                                                                |
+| :--------------- | :------------------ | :--------------------------------------------------------------------- |
+| **Next.js**      | `16.0` (App Router) | React framework with Server Components & optimized asset pipelines     |
+| **React**        | `19.0`              | Latest React engine with concurrent rendering                          |
+| **TypeScript**   | `5.0+`              | End-to-end type safety across components and utilities                 |
+| **Tailwind CSS** | `v4`                | High-performance CSS engine using modern CSS variables & design tokens |
+| **Motion**       | `13.4`              | Smooth declarative animations and micro-interactions                   |
+| **Lucide React** | `0.544`             | Crisp, scalable UI icons                                               |
+| **pnpm**         | `Latest`            | Fast, disk-space efficient package manager                             |
 
 ### Design Tokens & Typography
+
 - **Primary Color:** `#0445FF` (`--primary-800`)
 - **Secondary / Accent:** `#D4FB20` (`--secondary-400` Neon Lime)
 - **Typography:**
@@ -127,32 +133,39 @@ byte-space/
 ## 🚀 Getting Started & Local Setup
 
 ### Prerequisites
+
 - **Node.js:** `>= 18.18.0` (LTS recommended)
 - **pnpm:** `>= 8.0.0` (or `npm` / `yarn`)
 
 ### 1. Clone the repository
+
 ```bash
 git clone git@github.com:sisrafilss/byte-space-forntend.git
 cd byte-space-forntend
 ```
 
 ### 2. Switch to the feature branch
+
 ```bash
 git checkout feature/landing-page
 ```
 
 ### 3. Install dependencies
+
 ```bash
 pnpm install
 ```
 
 ### 4. Start the development server
+
 ```bash
 pnpm dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### 5. Production build & verification
+
 ```bash
 # Verify TypeScript types and production build
 pnpm build
@@ -178,4 +191,4 @@ This repository strictly adheres to standard software engineering best practices
 - **Candidate:** Israfil
 - **Role:** Jr. Software Engineer (Frontend)
 - **Assessment for:** ByteSpace / Doin Tech
-- **Completion Date:** September 2026
+- **Completion Date:** 30 September 2026
