@@ -59,8 +59,8 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
 
         {/* Middle Section: Left Content + Right Card */}
         <div className="my-auto flex flex-1 flex-col items-center justify-between gap-10 py-6 lg:flex-row lg:items-center lg:gap-12">
-          {/* Left Column: Heading, Subtitle & 3D Art Composition */}
-          <div className="flex w-full max-w-[548px] flex-col">
+          {/* Left Column: Heading, Subtitle & 3D Art Composition (Desktop only matching plan) */}
+          <div className="hidden w-full max-w-[548px] flex-col lg:flex">
             <div className="max-w-[475px]">
               <h1 className="font-poppins text-2xl font-semibold text-white sm:text-3xl lg:text-[24px] lg:leading-[32px]">
                 {isRegister ? 'Sign up and come in' : 'Sign in with ease'}
