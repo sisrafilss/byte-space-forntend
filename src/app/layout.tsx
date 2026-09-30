@@ -21,10 +21,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${poppins.variable} h-full antialiased`}>
-      <head>
-        <link rel="preconnect" href="https://cdn.fontshare.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://cdn.fontshare.com" />
-      </head>
       <body className="flex min-h-full flex-col bg-white font-sans text-neutral-950">
         {children}
       </body>

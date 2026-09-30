@@ -1,8 +1,8 @@
 'use client';
 
-import { cn } from '@/lib/utils';
-import { Search } from 'lucide-react';
 import React, { useState } from 'react';
+import { Search } from 'lucide-react';
+import { cn } from '@/lib/utils';
 
 export interface SearchBarProps {
   placeholder?: string;

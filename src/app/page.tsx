@@ -1,18 +1,20 @@
-import { Footer, Navbar } from '@/components/layout';
-import { CTASection } from '@/components/sections/CTASection';
-import { CategoriesSection } from '@/components/sections/CategoriesSection';
-import { CourseSection } from '@/components/sections/CourseSection';
-import { GrowthSection } from '@/components/sections/GrowthSection';
-import { HeroSection } from '@/components/sections/HeroSection';
-import { PartnersSection } from '@/components/sections/PartnersSection';
-import { TestimonialsSection } from '@/components/sections/TestimonialsSection';
+import {
+  CategoriesSection,
+  CourseSection,
+  CTASection,
+  GrowthSection,
+  HeroSection,
+  PartnersSection,
+  TestimonialsSection,
+} from '@/components/modules/home';
+import { PublicFooter, PublicNavbar } from '@/components/shared';
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white font-sans text-neutral-950">
       {/* Top Header & Hero Area with Vibrant Brand Blue Background */}
       <div className="relative w-full bg-[#003BE2]">
-        <Navbar />
+        <PublicNavbar />
         <HeroSection />
       </div>
 
@@ -35,7 +37,7 @@ export default function Home() {
       <TestimonialsSection />
 
       {/* Footer Section (Step 2.9) */}
-      <Footer />
+      <PublicFooter />
     </main>
   );
 }

@@ -59,8 +59,8 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
 
         {/* Middle Section: Left Content + Right Card */}
         <div className="my-auto flex flex-1 flex-col items-center justify-between gap-10 py-6 lg:flex-row lg:items-center lg:gap-12">
-          {/* Left Column: Heading, Subtitle & 3D Art Composition (Desktop only matching plan) */}
-          <div className="hidden w-full max-w-[548px] flex-col lg:flex">
+          {/* Left Column: Heading, Subtitle & 3D Art Composition */}
+          <div className="flex w-full max-w-[548px] flex-col">
             <div className="max-w-[475px]">
               <h1 className="font-poppins text-2xl font-semibold text-white sm:text-3xl lg:text-[24px] lg:leading-[32px]">
                 {isRegister ? 'Sign up and come in' : 'Sign in with ease'}
@@ -78,16 +78,16 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
 
-          {/* Right Column: White Card Container (Figma Register_Frame: w=579px, h=784px) */}
+          {/* Right Column: White Card Container (Figma Register_Frame: w=579px) */}
           <div className="w-full max-w-[579px] shrink-0">
-            <div className="w-full rounded-[32px] bg-white p-6 text-neutral-950 shadow-2xl sm:rounded-[40px] sm:p-10 lg:flex lg:min-h-[784px] lg:flex-col lg:justify-between lg:p-[60px]">
+            <div className="w-full rounded-[32px] bg-white p-6 text-neutral-950 shadow-2xl sm:rounded-[40px] sm:p-10 lg:p-12">
               {children}
             </div>
           </div>
         </div>
 
         {/* Footer spacer to maintain balance */}
-        <div className="hidden h-2 lg:block" />
+        <div className="hidden h-6 lg:block" />
       </div>
     </div>
   );
