@@ -1,4 +1,5 @@
 import { Navbar } from '@/components/layout/Navbar';
+import { CTASection } from '@/components/sections/CTASection';
 import { CategoriesSection } from '@/components/sections/CategoriesSection';
 import { CourseSection } from '@/components/sections/CourseSection';
 import { GrowthSection } from '@/components/sections/GrowthSection';
@@ -25,6 +26,9 @@ export default function Home() {
 
       {/* Professional Growth & Create Courses Sections (Step 2.6) */}
       <GrowthSection />
+
+      {/* CTA Banner Section (Step 2.7) */}
+      <CTASection />
     </main>
   );
 }
