@@ -5,6 +5,7 @@ import { CourseSection } from '@/components/sections/CourseSection';
 import { GrowthSection } from '@/components/sections/GrowthSection';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { PartnersSection } from '@/components/sections/PartnersSection';
+import { TestimonialsSection } from '@/components/sections/TestimonialsSection';
 
 export default function Home() {
   return (
@@ -29,6 +30,9 @@ export default function Home() {
 
       {/* CTA Banner Section (Step 2.7) */}
       <CTASection />
+
+      {/* Testimonials Section (Step 2.8) */}
+      <TestimonialsSection />
     </main>
   );
 }

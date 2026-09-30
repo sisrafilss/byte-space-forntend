@@ -4,3 +4,4 @@ export * from './CTASection';
 export * from './GrowthSection';
 export * from './HeroSection';
 export * from './PartnersSection';
+export * from './TestimonialsSection';
