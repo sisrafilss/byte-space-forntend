@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/layout/Navbar';
 import { CategoriesSection } from '@/components/sections/CategoriesSection';
 import { CourseSection } from '@/components/sections/CourseSection';
+import { GrowthSection } from '@/components/sections/GrowthSection';
 import { HeroSection } from '@/components/sections/HeroSection';
 import { PartnersSection } from '@/components/sections/PartnersSection';
 
@@ -21,6 +22,9 @@ export default function Home() {
 
       {/* Diverse Learning Paths Categories Section (Step 2.5) */}
       <CategoriesSection />
+
+      {/* Professional Growth & Create Courses Sections (Step 2.6) */}
+      <GrowthSection />
     </main>
   );
 }
