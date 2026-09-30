@@ -147,6 +147,7 @@ export function CTASection() {
               alt=""
               width={ornament.width}
               height={ornament.height}
+              sizes="(max-width: 640px) 180px, (max-width: 1024px) 260px, 385px"
               className="h-full w-full object-contain drop-shadow-md"
             />
           </div>

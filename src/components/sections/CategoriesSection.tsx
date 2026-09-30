@@ -1,5 +1,3 @@
-'use client';
-
 import { Container, SectionHeading } from '@/components/ui';
 import Image from 'next/image';
 import Link from 'next/link';

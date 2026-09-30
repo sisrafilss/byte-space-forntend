@@ -331,7 +331,6 @@ export function GrowthSection() {
                   fill
                   className="object-contain object-bottom drop-shadow-xl"
                   sizes="(max-width: 640px) 380px, (max-width: 1024px) 460px, 530px"
-                  priority
                 />
               </div>
 
@@ -409,7 +408,6 @@ export function GrowthSection() {
                   fill
                   className="object-contain object-bottom drop-shadow-xl"
                   sizes="(max-width: 640px) 380px, (max-width: 1024px) 480px, 540px"
-                  priority
                 />
               </div>
 

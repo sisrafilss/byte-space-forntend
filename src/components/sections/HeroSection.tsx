@@ -44,6 +44,7 @@ export function HeroSection() {
           alt=""
           width={200}
           height={310}
+          sizes="(max-width: 1024px) 190px, 200px"
           priority
           className="h-auto w-full object-contain object-left"
         />
@@ -59,6 +60,7 @@ export function HeroSection() {
           alt=""
           width={120}
           height={170}
+          sizes="(max-width: 1024px) 110px, 120px"
           className="h-auto w-full object-contain"
         />
       </div>
@@ -73,6 +75,7 @@ export function HeroSection() {
           alt=""
           width={220}
           height={280}
+          sizes="(max-width: 1024px) 200px, 220px"
           className="h-auto w-full object-contain"
         />
       </div>
@@ -88,6 +91,7 @@ export function HeroSection() {
           alt=""
           width={220}
           height={330}
+          sizes="(max-width: 1024px) 210px, 220px"
           priority
           className="h-auto w-full object-contain object-right"
         />
@@ -103,6 +107,7 @@ export function HeroSection() {
           alt=""
           width={180}
           height={170}
+          sizes="(max-width: 1024px) 150px, 170px"
           className="h-auto w-full object-contain"
         />
       </div>
@@ -117,6 +122,7 @@ export function HeroSection() {
           alt=""
           width={220}
           height={280}
+          sizes="(max-width: 1024px) 190px, 210px"
           className="h-auto w-full object-contain"
         />
       </div>
@@ -158,6 +164,7 @@ export function HeroSection() {
               alt="ByteSpace student learning online with laptop"
               width={578}
               height={541}
+              sizes="(max-width: 640px) 290px, (max-width: 768px) 420px, (max-width: 1024px) 500px, 578px"
               priority
               className="h-auto w-full object-contain drop-shadow-2xl"
             />
