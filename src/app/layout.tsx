@@ -12,6 +12,13 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'ByteSpace - Ignite Opportunity by Setting the World in Motion',
   description: 'Learn modern skills from world-class instructors with ByteSpace.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/apple-icon.png',
+  },
 };
 
 export default function RootLayout({
